@@ -1,4 +1,4 @@
-
+_G.delay = getgenv().Delay
 
 local Animate = game.Players.LocalPlayer.Character.Animate
 if  getgenv().AnimationPack == "Knight" then
