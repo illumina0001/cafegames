@@ -1,4 +1,4 @@
-_G.delay = getgenv().Delay
+delay = getgenv().Delay
 
 local Animate = game.Players.LocalPlayer.Character.Animate
 if  getgenv().AnimationPack == "Knight" then
@@ -99,7 +99,7 @@ repeat task.wait()
 					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 				end
 				)
-				wait(_G.delay)
+				wait(delay)
 				Path:ComputeAsync(HumanoidRootPart.Position, Vector3.new(-27, 21, 17)) -- transition to reg 2
 				for i,v in pairs(Path:GetWaypoints()) do
 					Humanoid:MoveTo(v.Position)
@@ -119,7 +119,7 @@ repeat task.wait()
 					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 				end
 				)
-				wait(_G.delay)
+				wait(delay)
 				Path:ComputeAsync(HumanoidRootPart.Position, Vector3.new(-28, 21, 10)) -- transition to reg 3
 				for i,v in pairs(Path:GetWaypoints()) do
 					Humanoid:MoveTo(v.Position)
@@ -139,7 +139,7 @@ repeat task.wait()
 					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 				end
 				)
-				wait(_G.delay)
+				wait(delay)
 				Path:ComputeAsync(HumanoidRootPart.Position, Vector3.new(-28, 21, 0)) -- transition to reg 4
 				for i,v in pairs(Path:GetWaypoints()) do
 					Humanoid:MoveTo(v.Position)
@@ -159,7 +159,7 @@ repeat task.wait()
 					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 				end
 				)
-				wait(_G.delay)
+				wait(delay)
 				Path:ComputeAsync(HumanoidRootPart.Position, Vector3.new(-29, 21, -3)) -- transition to reg 5
 				for i,v in pairs(Path:GetWaypoints()) do
 					Humanoid:MoveTo(v.Position)
@@ -179,7 +179,7 @@ repeat task.wait()
 					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 				end
 				)
-				wait(_G.delay)
+				wait(delay)
 
 				Path:ComputeAsync(HumanoidRootPart.Position, Vector3.new(-21, 21, -1)) -- transition to reg 6
 				for i,v in pairs(Path:GetWaypoints()) do
@@ -200,7 +200,7 @@ repeat task.wait()
 					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 				end
 				)
-				wait(_G.delay)
+				wait(delay)
 				
 				
 				Path:ComputeAsync(HumanoidRootPart.Position, Vector3.new(10, 21, -19)) -- transition to reg 7
@@ -222,7 +222,7 @@ repeat task.wait()
 					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 				end
 				)
-				wait(_G.delay)
+				wait(delay)
 				
 				
 				Path:ComputeAsync(HumanoidRootPart.Position, Vector3.new(-22, 21, -37)) -- transition to reg 8
@@ -244,7 +244,7 @@ repeat task.wait()
 					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 				end
 				)
-				wait(_G.delay)
+				wait(delay)
 				Path:ComputeAsync(HumanoidRootPart.Position, Vector3.new(-29, 21, -34)) -- transition to reg 9
 				for i,v in pairs(Path:GetWaypoints()) do
 					Humanoid:MoveTo(v.Position)
@@ -264,7 +264,7 @@ repeat task.wait()
 					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 				end
 				)
-				wait(_G.delay)
+				wait(delay)
 				Path:ComputeAsync(HumanoidRootPart.Position, Vector3.new(-29, 21, -40)) -- transition to reg 10
 				for i,v in pairs(Path:GetWaypoints()) do
 					Humanoid:MoveTo(v.Position)
@@ -284,7 +284,7 @@ repeat task.wait()
 					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 				end
 				)
-				wait(_G.delay)
+				wait(delay)
 				Path:ComputeAsync(HumanoidRootPart.Position, Vector3.new(-29, 20, -48)) -- transition to reg 11
 				for i,v in pairs(Path:GetWaypoints()) do
 					Humanoid:MoveTo(v.Position)
@@ -304,7 +304,7 @@ repeat task.wait()
 					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 				end
 				)
-				wait(_G.delay)
+				wait(delay)
 				Path:ComputeAsync(HumanoidRootPart.Position, Vector3.new(-28, 20, -57)) -- transition to reg 12
 				for i,v in pairs(Path:GetWaypoints()) do
 					Humanoid:MoveTo(v.Position)
@@ -324,7 +324,7 @@ repeat task.wait()
 					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 				end
 				)
-				wait(_G.delay)
+				wait(delay)
 				pcall(function()
 					local args = {
 						[1] = "["..name.."]: Returning back to Register 1...",----msg
